@@ -1,0 +1,21 @@
+/* HEADER */
+.header {
+    background-color: #3A373B;
+}
+.header img {
+    height: 40px;
+    padding: 0 30px;
+    margin: auto;
+}
+.header h3 {
+    margin: auto;
+    font-size: smaller;
+}
+.header a {
+    color: #F4F7F4;
+    margin: auto;
+}
+.header a:hover {
+    color: #1DA961;
+    text-decoration: none;
+}
