@@ -19,5 +19,19 @@
     color: #1DA961;
     text-decoration: none;
 }
+/* Welcome Message */
 .welcome {
+    background-color: #F4F7F4;
+}
+.welcome h1 {
+    text-align: center;
+    margin: 80px 15% 40px;
+    font-family: "Raleway";
+    font-weight: 800;
+    color: #1DA961;
+}
+.welcome h4 {
+    text-align: center;
+    margin: 40px 25% 80px;
+    font-family: "Cabin";
 }
