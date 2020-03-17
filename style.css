@@ -34,4 +34,26 @@
     text-align: center;
     margin: 40px 25% 80px;
     font-family: "Cabin";
+    color: #3A373B;
+}
+/* About me */
+.about-image {
+    background-image: url(./images/About-pic2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.about h5 {
+    font-family: "Cabin";
+    color: #F4F7F4;
+    padding: 20px 10%;
+}
+#about {
+    display: flex;
+    align-items: flex-end;
+    text-align: justify;
+}
+.about {
+    background-color: #1DA961;
 }
