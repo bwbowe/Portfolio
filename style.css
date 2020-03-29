@@ -219,3 +219,22 @@ ul {
 .phone:hover {
     background-image: url(./images/phone-dark.png);
 }
+.footer {
+    background-color: #3A373B;
+    color: #F4F7F4;
+    padding: 40px;
+    text-align: center;
+    font-family: "raleway";
+}
+.footer h6 {
+    padding: 30px;
+}
+.dog-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer img {
+margin: 20px;
+width: 300px;
+}
