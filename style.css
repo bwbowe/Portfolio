@@ -144,6 +144,7 @@ ul {
 .button {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .button a {
     text-decoration: none;
@@ -157,4 +158,64 @@ ul {
     padding: 15px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(58, 55, 58, .5);
+}
+
+/* Contact */
+
+.col-12 {
+    padding: 0;
+}
+.social-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #1DA961;
+    padding: 40px;
+}
+.social {
+    height: 80px;
+    width: 80px;
+    margin: 40px;
+}
+.insta {
+    background-image: url(./images/insta-light.png);
+    background-size: contain;
+}
+.insta:hover {
+    background-image: url(./images/insta-dark.png);
+}
+.linkedin {
+    background-image: url(./images/linked-light.png);
+    background-size: contain;
+}
+.linkedin:hover {
+    background-image: url(./images/linked-dark.png);
+}
+.twitter {
+    background-image: url(./images/twitter-light.png);
+    background-size: contain;
+}
+.twitter:hover {
+    background-image: url(./images/twitter-dark.png);
+}
+.facebook {
+    background-image: url(./images/facebook-light.png);
+    background-size: contain;
+}
+.facebook:hover {
+    background-image: url(./images/facebook-dark.png);
+}
+.mail {
+    background-image: url(./images/mail-light.png);
+    background-size: contain;
+}
+.mail:hover {
+    background-image: url(./images/mail-dark.png);
+}
+.phone {
+    background-image: url(./images/phone-light.png);
+    background-size: contain;
+}
+.phone:hover {
+    background-image: url(./images/phone-dark.png);
 }
