@@ -3,6 +3,9 @@
 .header {
     background-color: #3A373B;
     height: 55px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 .header img {
     height: 40px;
@@ -26,6 +29,7 @@
 
 .welcome {
     background-color: #F4F7F4;
+    padding-top: 55px;
 }
 h1 {
     text-align: center;
@@ -64,6 +68,9 @@ h1 {
 
 /* Projects */
 
+.projects {
+    background-color: #3A373B;
+}
 .projects-container {
     display: flex;
     justify-content: space-around;
@@ -95,4 +102,59 @@ h1 {
 }
 .project:hover img{
     opacity: .4;
+}
+
+/* Work History */
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.logo img{
+    padding: 20px 30px;
+    margin: 10px auto;
+    width: 100%;
+}
+.big-img {
+    width: 50%;
+}
+.work {
+    padding: 30px;
+    color: #3A373B;
+    font-family: "Cabin";
+}
+.experience {
+    background-color: #F4F7F4;
+}
+.work h3 {
+    text-decoration: underline;
+}
+.workheader h4{
+    font-weight: 700;
+}
+.workheader {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+ul {
+    padding: 10px 20px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+.button a {
+    text-decoration: none;
+    color: #3A373B;
+}
+.button a:hover {
+    opacity: .6;
+}
+.button h5 {
+    background-color: #F4F7F4;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(58, 55, 58, .5);
 }
