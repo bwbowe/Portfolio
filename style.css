@@ -7,20 +7,28 @@
     width: 100%;
     z-index: 1;
 }
-.header img {
+.icon {
+    display: flex;
+}
+.icon img {
     height: 40px;
-    padding: 0 30px;
     margin: auto;
 }
-.header h3 {
+.name {
+    text-align: center;
+    margin: auto;
+    color: #1DA961;
+    font-family: "Raleway";
+}
+.nav h3 {
     margin: auto;
     font-size: smaller;
 }
-.header a {
+.nav a {
     color: #F4F7F4;
     margin: auto;
 }
-.header a:hover {
+.nav a:hover {
     color: #1DA961;
     text-decoration: none;
 }
@@ -219,6 +227,9 @@ ul {
 .phone:hover {
     background-image: url(./images/phone-dark.png);
 }
+
+/* Footer */
+
 .footer {
     background-color: #3A373B;
     color: #F4F7F4;
