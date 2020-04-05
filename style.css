@@ -118,17 +118,46 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-end;
 }
-.logo img{
-    padding: 20px 30px;
-    margin: 10px auto;
-    width: 100%;
+/* .logo img{
+    padding: 20px 30px 0 60px;
+    margin: 10px ;
+    width: 80%;
 }
 .big-img {
     width: 50%;
+} */
+.resume-logo {
+    width: 50%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin: 30px 30px 0 0;
+}
+#redbirds {
+    background-image: url(./images/redbirds.png);
+}
+#fc {
+    background-image: url(./images/901fc.png);
+    /* margin-left: 100px; */
+    margin-top: 0;
+}
+#SOS {
+    background-image: url(./images/sos.png);
+}
+#BDC {
+    background-image: url(./images/bdc.png);
+}
+#tech901 {
+    background-image: url(./images/tech901.webp);
+}
+#mizzou{
+    background-image: url(./images/mizzou.png);
 }
 .work {
-    padding: 30px;
+    padding: 30px 150px 30px 30px;
     color: #3A373B;
     font-family: "Cabin";
 }
@@ -144,7 +173,7 @@ h1 {
 .workheader {
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
+    margin: 30px 0;
 }
 ul {
     padding: 10px 20px;
