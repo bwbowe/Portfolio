@@ -52,7 +52,9 @@ h1 {
     font-family: "Cabin";
     color: #3A373B;
 }
+
 /* About me */
+
 .about-image {
     background-image: url(./images/About-pic2.png);
     background-repeat: no-repeat;
@@ -64,6 +66,7 @@ h1 {
     font-family: "Cabin";
     color: #F4F7F4;
     padding: 40px 10%;
+    text-align: justify;
 }
 #about {
     display: flex;
@@ -106,7 +109,7 @@ h1 {
     width: 100%;
     padding: 20px 10px;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     background-color: #1DA961; 
     color: #F4F7F4;
     font-size: smaller;
@@ -261,11 +264,13 @@ h1 {
     justify-content: space-around;
     background-color: #1DA961;
     padding: 40px;
+
 }
 .social {
     height: 80px;
     width: 80px;
     margin: 40px;
+    background-repeat: no-repeat;
 }
 .insta {
     background-image: url(./images/insta-light.png);
@@ -331,4 +336,61 @@ h1 {
 .footer img {
 margin: 20px;
 width: 300px;
+}
+
+
+
+/* Media Queries*/
+
+@media only screen and (min-width: 1400px) {
+    .project {
+        width: 400px;
+    }
+    .projects-container h3 {
+        margin-top: 30px;
+    }
+    .project p {
+       margin-bottom: -60px;
+    }
+    .prev, .next {
+        margin-top: 8px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .resume-logo {
+        width: 100%;
+        margin: 0;
+    }
+    .work {
+        padding-right: 30px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .logo {
+        display: none;
+    }
+    .work {
+        padding: 40px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1039px) and (min-width: 801px) {
+    .social {
+        margin: 40px 80px;
+    }
+}
+@media only screen and (max-width: 801px) and (min-width: 720px) {
+    .social {
+        margin: 40px 60px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .section {
+        width: 85%;
+    }
+    .project {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
 }
