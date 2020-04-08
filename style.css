@@ -373,6 +373,17 @@ width: 300px;
         padding: 40px;
         width: 100%;
     }
+    .header {
+        height: 80px;
+        position: absolute;
+    }
+    .welcome h4 {
+        margin: 40px 10% 80px; 
+    }
+    .prev, .next {
+        margin: -22px 0px 0 0px;
+    }
+
 }
 @media only screen and (max-width: 1039px) and (min-width: 801px) {
     .social {
