@@ -131,7 +131,7 @@ h1 {
     top: 50%;
     width: auto;
     margin: -22px 20px 0 20px;
-    padding: 16px;
+    padding: 10px;
     color: white;
     font-weight: bold;
     font-size: 18px;
@@ -159,6 +159,9 @@ h1 {
     padding: 15px;
     box-shadow: 2px 2px 5px black;
     border-radius: 5px;
+}
+.github a:hover {
+    color: rgba(244, 247, 244, .6);
 }
 .github img {
     padding-right: 15px;
